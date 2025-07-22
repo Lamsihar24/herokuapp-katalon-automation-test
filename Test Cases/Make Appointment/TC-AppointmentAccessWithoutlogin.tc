@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC-ApointmentWithoutDate</name>
+   <name>TC-AppointmentAccessWithoutlogin</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>caa4deff-99b7-4ca6-b6b0-33c7c1de5577</testCaseGuid>
+   <testCaseGuid>d00ad3b9-f046-42e5-8bb7-31caa70f8613</testCaseGuid>
 </TestCaseEntity>

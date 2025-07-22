@@ -7,17 +7,18 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/profile.php#login')
 
-WebUI.click(findTestObject('Object Repository/apointment/input_Username_username'))
+WebUI.click(findTestObject('Object Repository/Appointment/input_Username_username'))
 
-WebUI.doubleClick(findTestObject('Object Repository/apointment/input_Username_username'))
+WebUI.doubleClick(findTestObject('Object Repository/Appointment/input_Username_username'))
 
-WebUI.setText(findTestObject('Object Repository/apointment/input_Username_username'), 'John Doe')
+WebUI.setText(findTestObject('Object Repository/Appointment/input_Username_username'), 'John Doe')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/apointment/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setEncryptedText(findTestObject('Object Repository/Appointment/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-WebUI.doubleClick(findTestObject('Object Repository/apointment/button_Login'))
+WebUI.doubleClick(findTestObject('Object Repository/Appointment/button_Login'))
 
-WebUI.click(findTestObject('Object Repository/apointment/button_Book Appointment'))
+WebUI.click(findTestObject('Object Repository/Appointment/button_Book Appointment'))
+
 String validityState = WebUI.executeJavaScript(
 	"return document.querySelector('input[name=\"visit_date\"]').validationMessage;", null)
 

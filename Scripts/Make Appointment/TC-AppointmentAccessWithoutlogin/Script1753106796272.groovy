@@ -7,5 +7,5 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/apointment/a_Make Appointment'))
+WebUI.click(findTestObject('Object Repository/Appointment/a_Make Appointment'))
 

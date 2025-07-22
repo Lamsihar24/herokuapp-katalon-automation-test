@@ -11,13 +11,13 @@ WebUI.setText(findTestObject('Page_Login/txt_username'), '')
 
 WebUI.setText(findTestObject('Page_Login/txt_password'), '')
 
-WebUI.click(findTestObject('Object Repository/login/button_Login'))
+WebUI.click(findTestObject('Object Repository/Login/button_Login'))
 
 // Tunggu sampai pesan error muncul
-WebUI.waitForElementVisible(findTestObject('Object Repository/login/login_error'), 10)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Login/login_error'), 10)
 
 // Verifikasi error messagenya sesuai
-WebUI.verifyElementText(findTestObject('Object Repository/login/login_error'), 'Login failed! Please ensure the username and password are valid.')
+WebUI.verifyElementText(findTestObject('Object Repository/Login/login_error'), 'Login failed! Please ensure the username and password are valid.')
 
 WebUI.delay(2)
 
